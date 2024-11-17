@@ -12,7 +12,7 @@ classifier = KMeans(n_clusters=3)
 classifier.fit(x)
 y=classifier.predict(x)
 
-print(x)
+print(y)
 print("\n")
 
 centroid=classifier.cluster_centers_
